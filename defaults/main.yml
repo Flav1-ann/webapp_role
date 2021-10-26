@@ -5,5 +5,5 @@ my_ansible_user: admin
 instance_1:
   name: WebApp
   port: 8080
-  name_directory: webApp
+  name_directory: webapp
   title_html: "Flavien"
