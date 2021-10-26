@@ -1,0 +1,6 @@
+---
+galaxy_info:
+  role_name: webapp_role
+  author: Annaix Flavien
+  description: Ansible webApp role
+  company: Annaix
