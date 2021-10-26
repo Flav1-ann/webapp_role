@@ -1,18 +1,18 @@
 ---
 namespace: community
-name: odoo-role
+name: webapp-role
 version: 1.0.0
 readme: README.md
 authors:
-  - Frazer SADO
-description: Install odoo
+  - Flavien Annaix
+description: Install webapp
 license_file: COPYING
 tags:
   - v1
-repository: https://github.com/sadofrazer/frazer-odoo-role.git
-documentation: https://github.com/sadofrazer/frazer-odoo-role.git
-homepage: https://github.com/sadofrazer/frazer-odoo-role.git
-issues: https://github.com/sadofrazer/frazer-odoo-role.git
+repository: https://github.com/Flav1-ann/webapp_role.git
+documentation: https://github.com/Flav1-ann/webapp_role.git
+homepage: https://github.com/Flav1-ann/webapp_role.git
+issues: https://github.com/Flav1-ann/webapp_role.git
 build_ignore:
   - .gitignore
  
