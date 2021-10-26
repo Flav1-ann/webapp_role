@@ -1,3 +1,4 @@
+---
 - name: set variable instance_1
   set_fact:
     name: "{{ instance_1.name }}"
@@ -27,4 +28,3 @@
       - "{{ instance_1.port }}:80"
     volumes:
       - /home/{{ ansible_user }}/{{ instance_1.name_directory }}/:/usr/local/apache2/htdocs/:rw
- 

@@ -15,4 +15,3 @@ homepage: https://github.com/Flav1-ann/webapp_role.git
 issues: https://github.com/Flav1-ann/webapp_role.git
 build_ignore:
   - .gitignore
- 
