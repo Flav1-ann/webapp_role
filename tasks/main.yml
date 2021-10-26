@@ -2,7 +2,7 @@
 - name: set variable instance_1
   set_fact:
     name: "{{ instance_1.name }}"
-    title_html : "{{ instance_1.title_html }}"
+    title_html: "{{ instance_1.title_html }}"
 - name: Create directory {{ name_directory }}
   file:
     path: /home/{{ ansible_user }}/{{ name_directory }}
