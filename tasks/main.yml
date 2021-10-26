@@ -12,12 +12,12 @@
 - name: "Download data from git repo"
   git:
     repo: 'https://github.com/diranetafen/static-website-example.git'
-    dest: /home/{{ ansible_user }}/webapp
+    dest: /home/{{ ansible_user }}/{{ name_directory }}
 
 - name: "Copy new template"
   template: 		
     src: index.html.j2
-    dest: /home/{{ ansible_user }}/webapp/index.html
+    dest: /home/{{ ansible_user }}/{{ name_directory }}/index.html
 
 - name: "launch docker container"
   docker_container:
