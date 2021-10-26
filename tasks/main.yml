@@ -24,7 +24,7 @@
     name: "{{ instance_1.name }}"
     image: httpd
     ports: 
-      - "{{ instance_1.port }}":"80"
+      - "{{ instance_1.port }}:80"
     volumes:
       - /home/{{ ansible_user }}/webapp/:/usr/local/apache2/htdocs/:rw
  
