@@ -1,12 +1,12 @@
 ---
 - name: install dependencies
-      package:
-        name: "{{ item }}"
-        state: "present"
-      loop:
-        - epel-release
-        - git
-      when: ansible_distribution == "CentOS"
+  package:
+    name: "{{ item }}"
+    state: "present"
+  loop:
+    - epel-release
+    - git
+  when: ansible_distribution == "CentOS"
 - name: "download Python-pip for docker module"
   get_url:
     url: https://bootstrap.pypa.io/pip/2.7/get-pip.py
