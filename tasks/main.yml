@@ -19,9 +19,9 @@
   set_fact:
     name: "{{ instance_1.name }}"
     title_html: "{{ instance_1.title_html }}"
-- name: Create directory {{ name_directory }}
+- name: Create directory {{ instance_1.name_directory }}
   file:
-    path: /home/{{ ansible_user }}/{{ name_directory }}
+    path: /home/{{ ansible_user }}/{{ instance_1.name_directory }}
     state: directory
 - name: Download data from git repo
   git:
